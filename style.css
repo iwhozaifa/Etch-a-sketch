@@ -1,9 +1,14 @@
-div#container {
+#container {
   height: auto;
   width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+  justify-content: center;
 }
 
-div {
+.boxes {
   height: 50px;
   width: 50px;
   display: flex;
@@ -12,5 +17,9 @@ div {
   padding: 16px;
   justify-content: center;
   border: solid 4px black;
-  flex: 0 0 calc(100%/16);
+  flex: 0 0 calc(100%/16) - 16px;
+}
+
+.boxes {
+  background-color: 100, 100, 100;
 }
