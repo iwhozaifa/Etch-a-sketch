@@ -1,10 +1,23 @@
+@font-face {
+  font-family: 'FiraCodeNerdFont';
+  src: url('fonts/FiraCodeNerdFont-Regular.woff2') format('woff2');
+}
+
+body {
+  font-family: 'FiraCodeNerdFont', monospace;
+
+}
+
+h1 {
+  text-align: center;
+
+}
+
 #container {
   height: auto;
   width: auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
-  padding: 16px;
   justify-content: center;
 }
 
@@ -13,9 +26,7 @@
   width: 50px;
   display: flex;
   flex-flow: row wrap;
-  gap: 16px;
-  padding: 16px;
   justify-content: center;
-  border: solid 4px black;
-  flex: 0 0 calc(100%/16) - 16px;
+  border: solid 0.5px black;
+  flex: 0 0 calc(100%/16)- 100px;
 }
