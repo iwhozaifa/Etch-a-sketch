@@ -26,7 +26,3 @@ container.addEventListener('mouseover', (e) => {
   }
 });
 
-// container.addEventListener("mouseout", (e) => {
-//   if (target.classList.contains("boxes")) {
-//     target.style.backgroundColor = ""
-//   }
