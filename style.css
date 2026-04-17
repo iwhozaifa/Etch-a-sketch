@@ -1,0 +1,16 @@
+div#container {
+  height: auto;
+  width: auto;
+}
+
+div {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 16px;
+  padding: 16px;
+  justify-content: center;
+  border: solid 4px black;
+  flex: 0 0 calc(100%/16);
+}
