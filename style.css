@@ -19,7 +19,3 @@
   border: solid 4px black;
   flex: 0 0 calc(100%/16) - 16px;
 }
-
-.boxes {
-  background-color: 100, 100, 100;
-}
